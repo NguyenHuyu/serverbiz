@@ -16,22 +16,22 @@ services:
         image: nodeapp
         environment:
             - APPID=2222
-            - DATABASE=mongodb://127.0.0.1:27017
+            - DATABASE=mongodb://127.0.0.1:27018
     nodeapp3:
         image: nodeapp
         environment:
             - APPID=3333
-            - DATABASE=mongodb://127.0.0.1:27017
+            - DATABASE=mongodb://127.0.0.1:27018
     nodeapp4:
         image: nodeapp
         environment:
             - APPID=4444
-            - DATABASE=mongodb://127.0.0.1:27017
+            - DATABASE=mongodb://127.0.0.1:27018
     nodeapp5:
         image: nodeapp
         environment:
             - APPID=5555
-            - DATABASE=mongodb://127.0.0.1:27017
+            - DATABASE=mongodb://127.0.0.1:27018
 
     
         
